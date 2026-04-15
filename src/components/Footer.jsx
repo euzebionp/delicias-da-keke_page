@@ -56,7 +56,7 @@ export default function Footer({ navigateTo }) {
             <li className="flex items-start gap-3">
               <MapPin size={16} className="text-[#e3262e] mt-0.5 shrink-0" />
               <div>
-                <p>Avenida Governador Valadares, 1500</p>
+                <p>Alameda Jacarandas, 23</p>
                 <p>Nova Ponte - MG - Brasil</p>
               </div>
             </li>
