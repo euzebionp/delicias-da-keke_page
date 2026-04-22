@@ -1,8 +1,16 @@
 {
-  "rewrites": [
+  "version": 2,
+  "name": "delicias-da-keke",
+  "builds": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "delicias-da-keke/package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "delicias-da-keke/$1"
     }
   ]
 }
